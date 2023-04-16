@@ -1,0 +1,61 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #12181B;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#clock {
+  font-family: "Orbitron", sans-serif;
+  font-size: 15vw;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(99, 253, 136)), color-stop(50%, rgb(51, 197, 142)), to(rgb(39, 97, 116)));
+  background-image: linear-gradient(180deg, rgb(99, 253, 136) 0%, rgb(51, 197, 142) 50%, rgb(39, 97, 116) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.controls {
+  margin-top: 16px;
+}
+
+.button {
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.set_alarm {
+  background-color: #498AFB;
+}
+
+.clear_alarm {
+  background-color: #FF3860;
+}/*# sourceMappingURL=alarm.css.map */
